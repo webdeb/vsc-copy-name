@@ -2,7 +2,7 @@
     "name": "copy-name",
     "displayName": "copy-name",
     "description": "Copy names of the files in the explorer",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "webdeb",
     "engines": {
         "vscode": "^1.20.0"
