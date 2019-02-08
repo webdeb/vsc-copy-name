@@ -2,7 +2,7 @@
 // Import the module and reference it with the alias vscode in your code below
 const vscode = require('vscode');
 const path = require('path');
-const copyPaste = require('copy-paste');
+const clipboardy = require('clipboardy');
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -19,7 +19,7 @@ function activate(context) {
         // The code you place here will be executed every time your command is executed
 
         const baseName = path.basename(explorerItem.path);
-        copyPaste.copy(baseName);
+        clipboardy.writeSync(baseName);
         // Display a message box to the user
         vscode.window.showInformationMessage(`Copied "${baseName}" to clipboard. Paste it somewhere.`);
     });
