@@ -40,7 +40,7 @@
         "@types/node": "^7.10.2",
         "eslint": "^4.19.1",
         "typescript": "^2.9.2",
-        "vscode": "^1.1.29"
+        "vscode": "^1.1.33"
     },
     "dependencies": {
         "clipboardy": "^1.2.0"
